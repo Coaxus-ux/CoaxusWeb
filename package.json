@@ -2,7 +2,7 @@
   "name": "CoaxusWeb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Coaxus-ux.github.io/",
+  "homepage": "http://coaxus-ux.github.io/",
   "dependencies": {
     "@deadcoder0904/react-typical": "^0.1.2",
     "@iconscout/react-unicons": "^1.1.6",
