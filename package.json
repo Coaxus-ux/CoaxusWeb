@@ -1,7 +1,8 @@
 {
-  "name": "my-web",
+  "name": "CoaxusWeb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Coaxus-ux.github.io/my-porfolio",
   "dependencies": {
     "@deadcoder0904/react-typical": "^0.1.2",
     "@iconscout/react-unicons": "^1.1.6",
@@ -22,6 +23,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "prebuild": "npm run build",
+    "build": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
